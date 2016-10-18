@@ -1,0 +1,54 @@
+ul {
+  border-bottom: black solid 15px;
+  list-style: none;
+  display: block;
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  /*text-align: center*/
+}
+
+ul.from {
+  border-bottom: red solid 15px;
+}
+
+ul:hover {
+  border-bottom: blue solid 15px;
+}
+
+li.won {
+  background-color: #11aa33;
+  border: #009812 solid 10px;
+}
+
+li.dummy {
+  background-color: inherit;
+  border: none;
+  height:45px;
+  /*display: none;*/
+}
+
+li {
+  border: #222222 solid 10px;
+  border-radius: 20px;
+  content: 'disc';
+  background-color: #555555;
+  height: 25px;
+  margin: 5px auto;
+
+}
+
+li.disc-3 {
+  width: 125px;
+}
+
+li.disc-2 {
+  width: 87px;
+}
+
+li.disc-1 {
+  width: 50px;
+}

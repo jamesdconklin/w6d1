@@ -1,0 +1,33 @@
+figure.snake {
+  border: black solid 1px;
+  width: 400px;
+  height: 400px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+  width: 400px;
+  height: 20px;
+  margin: 0;
+}
+
+li {
+  list-style: inherit;
+  width: 20px;
+  height: 20px;
+  float: left;
+  /*background-color: red;*/
+}
+
+li:hover {
+  background-color: black;
+}
+
+li.apple {
+  background-color: red;
+}
+
+li.snake {
+  background-color: green;
+}

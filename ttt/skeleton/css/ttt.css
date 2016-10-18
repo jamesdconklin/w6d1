@@ -1,0 +1,43 @@
+figure.ttt {
+
+}
+
+ul {
+  border: 5px solid black;
+  width: 450px;
+  height: 450px;
+  text-decoration: none;
+  -webkit-padding-start: 0px;
+
+}
+
+h1 {
+
+}
+
+li:hover {
+  background-color: #FFFF00;
+}
+
+li {
+  border: 5px solid black;
+  height: 140px;
+  width: 140px;
+  text-align: center;
+  font-size: 120px;
+  float: left;
+  list-style-type: none;
+  background-color: #bbbbbb
+}
+
+li.marked {
+  background-color: white;
+}
+
+li.marked.x{
+  color: red;
+}
+
+li.marked.o{
+  color: blue;
+}
